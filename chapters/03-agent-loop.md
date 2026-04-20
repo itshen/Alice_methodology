@@ -178,15 +178,15 @@ graph TD
 sequenceDiagram
     participant Loop as Agent Loop
     participant LLM as LLM API
-    participant UI as UI 渲染层
+    participant UI as UI Layer
 
-    Loop->>LLM: 发送 messages + tools（流式）
-    LLM-->>Loop: text chunk（持续）
+    Loop->>LLM: send messages + tools
+    LLM-->>Loop: text chunk x N
     Loop-->>UI: yield TextEvent
-    LLM-->>Loop: tool_call_delta（持续）
-    Loop->>Loop: 累积 JSON
+    LLM-->>Loop: tool_call_delta x N
+    Loop->>Loop: accumulate JSON
     LLM-->>Loop: tool_call complete
-    Loop->>Loop: 记录工具调用
+    Loop->>Loop: record tool call
     LLM-->>Loop: done + usage
 ```
 
