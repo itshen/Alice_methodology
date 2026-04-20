@@ -188,4 +188,4 @@ permissions:
 
 ---
 
-*下一章：能力扩展。*
+*上一章：[多 Agent 协作](06-multi-agent.md) · 下一章：[MCP 协议](08-mcp.md)*
