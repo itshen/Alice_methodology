@@ -5,7 +5,7 @@
   <p><em>一个桌面 AI Agent 背后的设计哲学与工程范式</em></p>
 
   <p>
-    <a href="https://alice.fans?from=methodology">🌐 alice.fans</a> &nbsp;·&nbsp;
+    🌐 <a href="https://alice.fans?from=methodology">alice.fans</a> &nbsp;·&nbsp;
     <a href="https://github.com/itshen/">GitHub @itshen</a> &nbsp;·&nbsp;
     作者：洛小山
   </p>
@@ -171,4 +171,4 @@ Alice 下载地址：[alice.fans](https://alice.fans?from=methodology)
 
 ## License
 
-MIT License · Copyright (c) 2025 Miyang Tech (Zhuhai Hengqin) Co., Ltd.
+MIT License · Copyright (c) 2026 Miyang Tech (Zhuhai Hengqin) Co., Ltd.
