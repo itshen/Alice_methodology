@@ -21,7 +21,7 @@
 
 这本书是我在构建 [Alice](https://alice.fans?from=methodology) 过程中系统整理的工程方法论。
 
-Alice 是一款可在 macOS 上运行的桌面 AI Agent，支持自我进化、多层记忆、多 Agent 协作，并拥有完整的角色人设。
+Alice 是一款全平台可用的桌面 AI Agent，支持自我进化、多层记忆、多 Agent 协作，并拥有完整的角色人设。
 
 内容是一套**经过生产验证的设计范式**，关于如何思考 Agent 的状态、工具、记忆、权限、多 Agent 协作，以及如何把这些拼成一个可靠的产品。
 
