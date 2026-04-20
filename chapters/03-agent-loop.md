@@ -176,18 +176,18 @@ graph TD
 
 ```mermaid
 sequenceDiagram
-    participant Loop as Agent Loop
-    participant LLM as LLM API
-    participant UI as UI Layer
+    participant A as Agent
+    participant L as LLM API
+    participant U as UI Layer
 
-    Loop->>LLM: send messages and tools
-    LLM-->>Loop: stream text chunks
-    Loop-->>UI: yield TextEvent
-    LLM-->>Loop: stream tool_call_delta
-    Loop->>Loop: accumulate JSON
-    LLM-->>Loop: tool_call complete
-    Loop->>Loop: record tool call
-    LLM-->>Loop: done and usage
+    A->>L: send messages and tools
+    L-->>A: stream text chunks
+    A-->>U: yield TextEvent
+    L-->>A: stream tool_call_delta
+    A->>A: accumulate JSON
+    L-->>A: tool_call complete
+    A->>A: record tool call
+    L-->>A: done and usage
 ```
 
 **特殊情况**：如果收到上下文长度超限错误，尝试做一次紧急 collapse（深度压缩），然后重试。
