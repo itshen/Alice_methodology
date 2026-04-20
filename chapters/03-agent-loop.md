@@ -180,14 +180,14 @@ sequenceDiagram
     participant LLM as LLM API
     participant UI as UI Layer
 
-    Loop->>LLM: send messages + tools
-    LLM-->>Loop: text chunk x N
+    Loop->>LLM: send messages and tools
+    LLM-->>Loop: stream text chunks
     Loop-->>UI: yield TextEvent
-    LLM-->>Loop: tool_call_delta x N
+    LLM-->>Loop: stream tool_call_delta
     Loop->>Loop: accumulate JSON
     LLM-->>Loop: tool_call complete
     Loop->>Loop: record tool call
-    LLM-->>Loop: done + usage
+    LLM-->>Loop: done and usage
 ```
 
 **特殊情况**：如果收到上下文长度超限错误，尝试做一次紧急 collapse（深度压缩），然后重试。
