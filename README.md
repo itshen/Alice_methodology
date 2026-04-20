@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/luoxiaoshan.png" width="120" style="border-radius: 50%;" />
 
-  <h1>Alice 工程方法论</h1>
+  <h1>Alice 工程方法论 Wiki</h1>
   <p><em>一个桌面 AI Agent 背后的设计哲学与工程范式</em></p>
 
   <p>
