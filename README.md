@@ -187,7 +187,7 @@ Alice 下载：[alice.miyang.cn](https://alice.miyang.cn?from=methodology)
 
 ### 感谢观猹
 
-感谢 **[观猹](https://guancha.ai)** 为所有 Alice 用户提供免费 Token 支持，让 Alice 可以真正做到开箱即用。
+感谢 **[观猹](https://watcha.cn/products/alice)** 为所有 Alice 用户提供免费 Token 支持，让 Alice 可以真正做到开箱即用。
 
 ### 感谢许愿池里提需求的每一位
 
