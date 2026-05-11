@@ -5,7 +5,7 @@
   <p><em>一个桌面 AI Agent 背后的设计哲学与工程范式</em></p>
 
   <p>
-    🌐 <a href="https://alice.fans?from=methodology">alice.fans</a> &nbsp;·&nbsp;
+    🌐 <a href="https://alice.miyang.cn?from=methodology">alice.miyang.cn</a> &nbsp;·&nbsp;
     <a href="https://github.com/itshen/">GitHub @itshen</a> &nbsp;·&nbsp;
     作者：洛小山
   </p>
@@ -19,7 +19,7 @@
 
 ## 这是什么
 
-这本书是我在构建 [Alice](https://alice.fans?from=methodology) 过程中系统整理的工程方法论。
+这本书是我在构建 [Alice](https://alice.miyang.cn?from=methodology) 过程中系统整理的工程方法论。
 
 Alice 是一款全平台可用的桌面 AI Agent，支持自我进化、多层记忆、多 Agent 协作，并拥有完整的角色人设。
 
@@ -55,6 +55,8 @@ Alice 是一款全平台可用的桌面 AI Agent，支持自我进化、多层�
 ---
 
 ## 章节目录
+
+在线阅读体验更佳：[alice.miyang.cn/methodology](https://alice.miyang.cn/methodology/)
 
 ### 一、哲学与架构
 
@@ -102,6 +104,18 @@ Alice 是一款全平台可用的桌面 AI Agent，支持自我进化、多层�
 
 - [附录](chapters/appendix.md)：核心概念词典、架构决策清单
 
+### 创作者故事
+
+| 篇目 | 标题 |
+|------|------|
+| 故事一 | [为什么我要自己做一个 AI 助手](blog/blog-01-why-alice.md) |
+| 故事二 | [用做游戏的方法做 AI](blog/blog-02-alive-agent-design.md) |
+| 故事三 | [一个人怎么撑起一个 AI Agent 产品](blog/blog-03-architecture.md) |
+| 故事四 | [五层记忆：让 AI 真正记住你](blog/blog-04-memory-system.md) |
+| 故事五 | [一个人的公司，11 个人的团队](blog/blog-05-multi-agent.md) |
+| 故事六 | [用 AI 和用户共建产品](blog/blog-06-co-building.md) |
+| 故事七 | [一个月 140 个版本](blog/blog-07-rapid-release.md) |
+
 ---
 
 ## 与 Anthropic 官方思路的对标
@@ -132,7 +146,7 @@ Alice 是一款全平台可用的桌面 AI Agent，支持自我进化、多层�
 
 Alice 是我持续打磨的产品，这里记录的是背后完整的工程思考。
 
-- 🌐 [alice.fans](https://alice.fans?from=methodology)
+- 🌐 [alice.miyang.cn](https://alice.miyang.cn?from=methodology)
 - 🐙 [github.com/itshen](https://github.com/itshen/)
 
 </td>
@@ -146,26 +160,79 @@ Alice 是我持续打磨的产品，这里记录的是背后完整的工程思�
 <table>
 <tr>
 <td align="center" width="200">
-<img src="assets/qrcode_sponsor.jpg" width="160" style="border-radius: 8px;" /><br/>
-<em>赞赏码</em>
+<img src="assets/qrcode_luoxiaoshan.jpg" width="160" style="border-radius: 8px;" /><br/>
+<em>公众号：洛小山</em>
 </td>
 <td align="center" width="200">
-<img src="assets/qrcode_luoxiaoshan.jpg" width="160" style="border-radius: 8px;" /><br/>
-<em>公众号</em>
+<img src="assets/qrcode_sponsor.jpg" width="160" style="border-radius: 8px;" /><br/>
+<em>赞赏码</em>
 </td>
 <td>
 
 如果这本书对你有帮助，欢迎：
 
 - ⭐ 给仓库点个 Star
-- 扫码关注公众号，获取更多 AI 工程化内容
+- 扫码关注公众号「洛小山」，获取更多 AI 工程化内容
 - 扫码赞赏，支持持续更新
 
-Alice 下载地址：[alice.fans](https://alice.fans?from=methodology)
+Alice 下载：[alice.miyang.cn](https://alice.miyang.cn?from=methodology)
 
 </td>
 </tr>
 </table>
+
+---
+
+## 特别感谢
+
+### 感谢观猹
+
+感谢 **[观猹](https://guancha.ai)** 为所有 Alice 用户提供免费 Token 支持，让 Alice 可以真正做到开箱即用。
+
+### 感谢许愿池里提需求的每一位
+
+Alice 的每一次迭代都离不开用户的反馈。以下是在[许愿池](https://alice.miyang.cn/ideas)里提过需求的朋友们，谢谢你们让 Alice 变得更好 🙏
+
+<table>
+<tr>
+<td>Alan &nbsp;·&nbsp; allen &nbsp;·&nbsp; azhang &nbsp;·&nbsp; BJ🦞 &nbsp;·&nbsp; CC &nbsp;·&nbsp; Dean &nbsp;·&nbsp; Desmond</td>
+</tr>
+<tr>
+<td>jiahao &nbsp;·&nbsp; Joey &nbsp;·&nbsp; Joycean &nbsp;·&nbsp; Junxian &nbsp;·&nbsp; Katechon &nbsp;·&nbsp; Ken Chen &nbsp;·&nbsp; Kingsley</td>
+</tr>
+<tr>
+<td>life--zen &nbsp;·&nbsp; lin &nbsp;·&nbsp; Ludviq &nbsp;·&nbsp; Luke &nbsp;·&nbsp; monaco &nbsp;·&nbsp; Mr Ryan &nbsp;·&nbsp; Ning</td>
+</tr>
+<tr>
+<td>Prometh &nbsp;·&nbsp; Rapha &nbsp;·&nbsp; Ray &nbsp;·&nbsp; Rosia &nbsp;·&nbsp; Simon &nbsp;·&nbsp; strange &nbsp;·&nbsp; Tim（IT老顽童）</td>
+</tr>
+<tr>
+<td>Zacks &nbsp;·&nbsp; ご主人様 &nbsp;·&nbsp; 仲其伟 &nbsp;·&nbsp; 余大陆 &nbsp;·&nbsp; 公子 &nbsp;·&nbsp; 刘旭 &nbsp;·&nbsp; 千千</td>
+</tr>
+<tr>
+<td>千成文 &nbsp;·&nbsp; 华荣 &nbsp;·&nbsp; 博宇 &nbsp;·&nbsp; 卷卷 &nbsp;·&nbsp; 司辰 &nbsp;·&nbsp; 吴奕群 &nbsp;·&nbsp; 吴超</td>
+</tr>
+<tr>
+<td>培哥 &nbsp;·&nbsp; 大厨 &nbsp;·&nbsp; 大猫 &nbsp;·&nbsp; 女将军 &nbsp;·&nbsp; 好运筱筱 &nbsp;·&nbsp; 孙东来 &nbsp;·&nbsp; 宴夜</td>
+</tr>
+<tr>
+<td>小A总 &nbsp;·&nbsp; 小托 &nbsp;·&nbsp; 小白白 &nbsp;·&nbsp; 小蓝天 &nbsp;·&nbsp; 希扬 &nbsp;·&nbsp; 年轮 &nbsp;·&nbsp; 拾元</td>
+</tr>
+<tr>
+<td>旦旦 &nbsp;·&nbsp; 旸哥儿 &nbsp;·&nbsp; 有语 &nbsp;·&nbsp; 来日方长 &nbsp;·&nbsp; 海涛 &nbsp;·&nbsp; 涌儿 &nbsp;·&nbsp; 潇洒柠檬</td>
+</tr>
+<tr>
+<td>牙牙 &nbsp;·&nbsp; 猫工头 &nbsp;·&nbsp; 甜筒 &nbsp;·&nbsp; 白艾莉 &nbsp;·&nbsp; 箱子 &nbsp;·&nbsp; 老九 &nbsp;·&nbsp; 老李</td>
+</tr>
+<tr>
+<td>老板 &nbsp;·&nbsp; 老翔 &nbsp;·&nbsp; 苏亦唐 &nbsp;·&nbsp; 菲菲 &nbsp;·&nbsp; 蘑菇Sound &nbsp;·&nbsp; 虎头虎尾 &nbsp;·&nbsp; 西米</td>
+</tr>
+<tr>
+<td>观猹员 1616 &nbsp;·&nbsp; 风 &nbsp;·&nbsp; 风间细雨 &nbsp;·&nbsp; 鹏哥</td>
+</tr>
+</table>
+
+> 名单来自[许愿池](https://alice.miyang.cn/ideas)，如有遗漏请提 Issue 告知。
 
 ---
 
